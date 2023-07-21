@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['gitprofile','MixedRealityToolkit-Unity'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -63,6 +63,7 @@ const config = {
       link: 'https://example.com'
     },
   ], */
+  /*
   education: [
     {
       institution: 'Institution Name',
@@ -77,7 +78,7 @@ const config = {
       to: '2014',
     },
   ],
-
+    */
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
